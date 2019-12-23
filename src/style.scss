@@ -1,3 +1,50 @@
+$dark-blue: #292D78;
+$purple: #50549D;
+$pink: #E5338B;
+$light-pink: #F861B8;
+$orange: #FF7255;
+$light-orange: #FF9D47;
+
+
 *{
     font-family: rubik, sans-serif;
+    color: $dark-blue;
+    text-align: center;
+}
+
+.portrait{
+    margin-top: 20px;
+    max-width: 300px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-weight: black;
+    font-size: 3.5rem;
+    background: repeating-linear-gradient(135deg, #F861B8 0px, #F861B8 60px, #E5338B 60px, #E5338B 120px, #50549D 120px, #50549D 180px, #FF7255 180px, #FF7255 240px, #FF9D47 240px,#FF9D47 300px);
+    background-size: 424px 424px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: scroll 20s infinite;
+    animation-timing-function: linear;
+    margin-bottom: 0px;
+}
+
+@keyframes scroll {
+    0%{
+        background-position: 0px;
+    }
+    100%{
+        background-position: 424px;
+    }
+}
+
+h2{
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 1.7rem;
 }
