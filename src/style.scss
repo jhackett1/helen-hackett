@@ -30,27 +30,33 @@ p{
     animation: bounce-in 2s ease-out;
 }
 
-h1{
-    margin-top: 0px;
-    text-transform: uppercase;
-    font-weight: black;
-    font-size: 3.5rem;
-    line-height: 1;
-    background: repeating-linear-gradient(135deg, #F861B8 0px, #F861B8 60px, #E5338B 60px, #E5338B 120px, #50549D 120px, #50549D 180px, #FF7255 180px, #FF7255 240px, #FF9D47 240px,#FF9D47 300px);
-    background-size: 424px 424px;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    // animation: scroll 20s infinite;
-    // animation-timing-function: linear;
-    margin-bottom: 0px;
-    @media screen and (min-width: 600px){
-        font-size: 6.5rem;
-    }
-    @media screen and (min-width: 900px){
-        font-size: 8.5rem;
-    }
+.masthead img{
+    margin: 15px auto;
+    width: 100%;
+    max-width: 600px;
 }
+
+// h1{
+//     margin-top: 0px;
+//     text-transform: uppercase;
+//     font-weight: black;
+//     font-size: 3.5rem;
+//     line-height: 1;
+//     background: repeating-linear-gradient(135deg, #F861B8 0px, #F861B8 60px, #E5338B 60px, #E5338B 120px, #50549D 120px, #50549D 180px, #FF7255 180px, #FF7255 240px, #FF9D47 240px,#FF9D47 300px);
+//     background-size: 424px 424px;
+//     -webkit-text-fill-color: transparent;
+//     -webkit-background-clip: text;
+//     background-clip: text;
+//     // animation: scroll 20s infinite;
+//     // animation-timing-function: linear;
+//     margin-bottom: 0px;
+//     @media screen and (min-width: 600px){
+//         font-size: 6.5rem;
+//     }
+//     @media screen and (min-width: 900px){
+//         font-size: 8.5rem;
+//     }
+// }
 
 h2{
     margin-top: 10px;
